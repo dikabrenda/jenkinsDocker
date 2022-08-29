@@ -1,0 +1,1 @@
+docker build -t myjenkins:2.346.3-1 .
