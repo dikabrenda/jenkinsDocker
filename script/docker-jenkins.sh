@@ -8,6 +8,6 @@ docker run \
   --env DOCKER_TLS_CERTDIR=/certs \
   --volume jenkins-docker-certs:/certs/client \
   --volume jenkins-data:/var/jenkins_home \
-  --publish 2376:2376 \
+  --publish 2377:2377 \
   docker:dind \
   --storage-driver overlay2
